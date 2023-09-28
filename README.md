@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/Hrishikesh332/RetroNexus">
+  <a href="https://retro-nexus.vercel.app/">
     <img src="src/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -98,6 +98,16 @@ Run Project on terminal
 ```bash
   npm run dev
 ```
+
+## Upcoming development
+
+![](https://geps.dev/progress/50)
+
+- [ ] Awesome UI releasing soon
+- [x] Ability to generate the story as per the user choosen category
+- [x] Ability to generate the digital asset (NFT Art)
+- [ ] Seamless Background of Game
+- [ ] Wallet Connection via Google Account
 
 
 
