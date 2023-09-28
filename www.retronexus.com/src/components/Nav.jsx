@@ -25,11 +25,6 @@ function Nav(){
                 <li>
                     <a className='link-styled'>Feedback</a>
                 </li>
-                <li>
-            <a href="https://github.com/your-github-link" target="_blank" rel="noopener noreferrer">
-              <img src={GithubIcon} alt="GitHub" height="35" width="35" />
-            </a>
-          </li>
                 
 
             </ul>

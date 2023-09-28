@@ -26,10 +26,10 @@ function Jumbotron(){
         </span>
         <ul className='links'>
             <li>
-                <button className='button'>Demo</button>
+                <button disabled className='button disabled'>🏗️ In Development</button>
             </li>
             <li>
-                <button className='button'>Github</button>
+                <a target="_blank" href="https://github.com/Hrishikesh332/RetroNexus" className='button' rel="noopener noreferrer">Github</a>
             </li>
 
         </ul>

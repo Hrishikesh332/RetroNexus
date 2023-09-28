@@ -7,12 +7,12 @@ function Footer() {
     <footer className="footer-wrapper">
       <div className="footer-content">
         <div className="connect-us">
-          <h3>Connect Us</h3>
+          <h3>Connect with us</h3>
           <div className="social-icons">
-              <a href="https://github.com/your-github-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/retronexusworld" target="_blank" rel="noopener noreferrer">
               <img src={TwitterIcon} alt="Twitter" height="35" width="35" />
             </a>
-            <a href="https://github.com/your-github-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Hrishikesh332/RetroNexus" target="_blank" rel="noopener noreferrer">
               <img src={GithubIcon} alt="GitHub" height="35" width="35" />
             </a>
           </div>
