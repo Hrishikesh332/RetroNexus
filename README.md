@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://retro-nexus.vercel.app/">
-    <img src="src/Logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="src/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">RetroNexus</h3>
