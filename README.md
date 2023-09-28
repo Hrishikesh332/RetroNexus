@@ -62,7 +62,19 @@ RetroNexus also lets you earn while you play. As you conquer each level, you'll 
 
 ## Languages and Tools
 
-<a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/401953/hugging-face.svg" alt="git" width="40" height="40"/> </a><a href="https://www.python.org/" rel="noreferrer"> <img src="https://www.svgrepo.com/show/452091/python.svg" alt="git" width="40" height="40"/> </a><a href="https://www.llamaindex.ai/" rel="noreferrer"> <img src="https://media.licdn.com/dms/image/D560BAQFbVTDw-oWXmw/company-logo_200_200/0/1681327674615?e=2147483647&v=beta&t=OU93BqbJiOsxQDqqfafjPh4A7soy9th432LXgFtWncQ" alt="git" width="40" height="40"/> </a>
+<a href="https://svelte.dev/" rel="noreferrer"> 
+<img src="https://www.svgrepo.com/show/349522/svelte.svg" alt="git" width="40" height="40"/> </a><a href="https://tailwindcss.com/" rel="noreferrer"> 
+<img src="https://www.svgrepo.com/show/333609/tailwind-css.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/401953/hugging-face.svg" alt="git" width="40" height="40"/> </a><a href="https://www.python.org/" rel="noreferrer"> <img src="https://www.svgrepo.com/show/452091/python.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://openai.com/" rel="noreferrer"> <img src="https://www.svgrepo.com/show/306500/openai.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://www.llamaindex.ai/" rel="noreferrer"> <img src="https://media.licdn.com/dms/image/D560BAQFbVTDw-oWXmw/company-logo_200_200/0/1681327674615?e=2147483647&v=beta&t=OU93BqbJiOsxQDqqfafjPh4A7soy9th432LXgFtWncQ" alt="git" width="40" height="40"/> </a>
+<a href="https://flask.palletsprojects.com/en/2.3.x/" rel="noreferrer"> 
+<img src="https://github.com/Hrishikesh332/AskScribe/blob/main/src/Langchain.png" alt="git" width="40" height="40"/> </a>
+<a href="https://flask.palletsprojects.com/en/2.3.x/" rel="noreferrer"> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtdH92bhtqUkE1qIz1KpPRkTJVIUQiCZDWtRSZgax_zigALaDZuWuYGAepc5a7IemHNNI&usqp=CAU" alt="git" width="40" height="40"/> </a>
+<a href="https://www.holaplex.com/" rel="noreferrer"> 
+<img src="https://uploads-ssl.webflow.com/6407c5b1c3b2f7a70cdf0d09/6407df8143fefca85208e8fe_Webclip.svg" alt="git" width="40" height="40"/> </a>
+
 
 
  
