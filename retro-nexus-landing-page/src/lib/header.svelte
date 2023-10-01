@@ -5,24 +5,10 @@
 	import Button from '$lib/button.svelte';
 	import { Menu } from 'lucide-svelte';
 	import { clickOutside } from '$lib';
+	import { links } from '$lib/utils';
 
 	let showNavbar: boolean = false;
 	let menuButton: HTMLElement;
-
-	const links = [
-		{
-			href: '/#home',
-			label: 'Home'
-		},
-		{
-			href: '/#how-it-works',
-			label: 'How it works'
-		},
-		{
-			href: '/#features',
-			label: 'Features'
-		}
-	];
 </script>
 
 <header class="w-full flex justify-between items-center px-6 py-2">

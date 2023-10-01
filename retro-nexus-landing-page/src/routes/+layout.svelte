@@ -3,6 +3,7 @@
 	import '@fontsource/press-start-2p';
 	import '$lib/assets/fonts/blendor_pro/stylesheet.css';
 	import Header from '$lib/header.svelte';
+	import Footer from '$lib/footer.svelte';
 </script>
 
 <svelte:head>
@@ -16,3 +17,4 @@
 
 <Header />
 <slot />
+<Footer />

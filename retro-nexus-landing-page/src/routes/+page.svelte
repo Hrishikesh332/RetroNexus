@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from '$lib/button.svelte';
 	import Input from '$lib/input.svelte';
+	// @ts-ignore
 	import RetroBG from '$lib/assets/retroBG.png?w-800';
 	import Image from '$lib/image.svelte';
 
@@ -46,11 +47,11 @@
 		</p>
 	</div>
 	<div class="space-y-4 mx-auto">
-		<div class="flex -space-x-4 mx-auto sm:w-fit">
+		<div class="flex -space-x-4 mx-auto min-[500px]:w-fit">
 			<Input
 				placeholder="Enter your email"
 				id="email"
-				class="w-80
+				class=" sm:w-80
 				text-lg"
 			/>
 			<Button class="w-36 text-lg" variant="primary">Sign Up</Button>
@@ -61,8 +62,8 @@
 		>
 	</div>
 </section>
-<div class="py-8 w-[150%] space-y-4">
-	<div class="flex gap-4 translate-x-[-15%]">
+<div class="py-8 space-y-4 overflow-x-hidden">
+	<div class="flex relative w-[150%] gap-4 translate-x-[-15%]">
 		{#each herosOne as hero, i}
 			<Image
 				src={hero}
@@ -72,7 +73,10 @@
 			/>
 		{/each}
 	</div>
-	<div class="flex gap-4 translate-x-[-5%]">
+	<div
+		class="flex gap-4 w-[150%] lg:w-[90%] mx-auto translate-x-[-5%]
+		lg:translate-x-0"
+	>
 		{#each herosTwo as hero, i}
 			<Image
 				src={hero}
