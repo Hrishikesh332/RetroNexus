@@ -1,11 +1,10 @@
 <script lang="ts">
-	import Image from '$lib/image.svelte';
+	import Image from '$components/image.svelte';
 	//@ts-ignore
-	import logo from '$lib/assets/RetroNexus.png?w=75;100';
-	import Button from '$lib/button.svelte';
+	import logo from '$assets/RetroNexus.png?w=75;100';
+	import Button from '$components/button.svelte';
 	import { Menu } from 'lucide-svelte';
-	import { clickOutside } from '$lib';
-	import { links } from '$lib/utils';
+	import { clickOutside, links } from '$utils';
 
 	let showNavbar: boolean = false;
 	let menuButton: HTMLElement;

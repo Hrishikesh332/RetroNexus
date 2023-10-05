@@ -1,3 +1,5 @@
+import clickOutside from "./clickOutside";
+
 export const links = [
 		{
 			href: '/#home',
@@ -12,3 +14,5 @@ export const links = [
 			label: 'Features'
 		}
 	];
+
+export {clickOutside}

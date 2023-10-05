@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Image from '$lib/image.svelte';
+	import Image from '$components/image.svelte';
 	//@ts-ignore
-	import logo from '$lib/assets/RetroNexus.png?w=75;100';
-	import { links } from '$lib/utils';
-	import Input from '$lib/input.svelte';
-	import Button from '$lib/button.svelte';
+	import logo from '$assets/RetroNexus.png?w=75;100';
+	import { links } from '$utils';
+	import Input from '$components/input.svelte';
+	import Button from '$components/button.svelte';
 </script>
 
 <footer class="px-4 md:px-12 space-y-12 py-8">

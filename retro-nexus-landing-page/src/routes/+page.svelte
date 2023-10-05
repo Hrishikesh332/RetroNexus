@@ -1,11 +1,11 @@
 <script lang="ts">
-	import Button from '$lib/button.svelte';
-	import Input from '$lib/input.svelte';
+	import Button from '$components/button.svelte';
+	import Input from '$components/input.svelte';
 	// @ts-ignore
-	import RetroBG from '$lib/assets/retroBG.png?w-800';
-	import Image from '$lib/image.svelte';
+	import RetroBG from '$assets/retroBG.png?w-800';
+	import Image from '$components/image.svelte';
 
-	const heros = import.meta.glob('$lib/assets/heros/*.{jpg,jpeg,png}', {
+	const heros = import.meta.glob('$assets/heros/*.{jpg,jpeg,png}', {
 		query: { w: '200;400;600' },
 		import: 'default',
 		eager: true
@@ -64,9 +64,9 @@
 </section>
 <div class="py-8 space-y-4 overflow-x-hidden">
 	<div class="flex relative w-[150%] gap-4 translate-x-[-15%]">
-		{#each herosOne as hero, i}
+		{#each herosOne as hero1, i (hero1)}
 			<Image
-				src={hero}
+				src={hero1}
 				alt="Heroororo"
 				class={` ${i > 2 ? 'hidden md:block' : 'block'}
 			w-full`}
@@ -77,7 +77,7 @@
 		class="flex gap-4 w-[150%] lg:w-[90%] mx-auto translate-x-[-5%]
 		lg:translate-x-0"
 	>
-		{#each herosTwo as hero, i}
+		{#each herosTwo as hero, i (hero)}
 			<Image
 				src={hero}
 				alt="Heroororo"

@@ -27,10 +27,10 @@
 	export let draggable = false;
 
 	/** @type {'async' | 'sync' | 'auto'} */
-	export let decoding = 'async';
+	export let decoding = 'sync';
 
 	/** @type {'lazy' | 'eager'} */
-	export let loading = 'lazy';
+	export let loading = 'eager';
 
 	let classes = '';
 	export { classes as class };

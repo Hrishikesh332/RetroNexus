@@ -2,8 +2,8 @@
 	import '../app.css';
 	import '@fontsource/press-start-2p';
 	import '$lib/assets/fonts/blendor_pro/stylesheet.css';
-	import Header from '$lib/header.svelte';
-	import Footer from '$lib/footer.svelte';
+	import Header from '$components/header.svelte';
+	import Footer from '$components/footer.svelte';
 </script>
 
 <svelte:head>
