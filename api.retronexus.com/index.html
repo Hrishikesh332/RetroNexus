@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Nexus</title>
+</head>
+<body>
+    <h1>RetroNexus</h1>
+
+    <form method="POST" action="/">
+        <label for="text">Enter text:</label><br>
+        <textarea name="text" rows="4" cols="50" placeholder="Drop your ideas, and I will find a relevant story. Example: A man goes into the multiverse to find his alter version of himself."></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if response %}
+        <h2>Generated Response:</h2>
+        <div>
+            {{ response | safe }}
+        </div>
+    {% endif %}
+</body>
+</html>
